@@ -1,0 +1,12 @@
+CREATE TABLE `jobconfiguration` (
+  `Id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `TriggerName` varchar(50) NOT NULL DEFAULT '' COMMENT 'job名称',
+  `TriggerUrl` varchar(255) NOT NULL DEFAULT '' COMMENT '触发URL',
+  `Explain` varchar(255) NOT NULL DEFAULT '' COMMENT '说明',
+  `CronExpr` varchar(100) NOT NULL DEFAULT '' COMMENT 'Cron表达式',
+  `Classify` int(11) NOT NULL DEFAULT '0' COMMENT '分类',
+  `IsValid` int(11) NOT NULL DEFAULT '1' COMMENT '是否有效',
+  `RunStatus` int(11) NOT NULL DEFAULT '1' COMMENT '运行状态',
+  `CreateDate` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '新增时间',
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;

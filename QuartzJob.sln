@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzJob", "QuartzJob\QuartzJob.csproj", "{3BBFD563-8CD8-46BD-9F9B-34B09B7B00BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzJob.Common", "QuartzJob.Common\QuartzJob.Common.csproj", "{8573EC60-DACE-4B68-B05D-94F212B06DAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzJob.Business", "QuartzJob.Business\QuartzJob.Business.csproj", "{6230BF74-68F6-4211-9F27-F026A9CDF45A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzJob.DataAccess", "QuartzJob.DataAccess\QuartzJob.DataAccess.csproj", "{086B31AF-9EF4-41B5-B216-FAE991492397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzJob.QuartzHelper", "QuartzJob.QuartzHelper\QuartzJob.QuartzHelper.csproj", "{645AF2BD-FA67-4B32-8602-52D686B541CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzJob.Services", "QuartzJob.Services\QuartzJob.Services.csproj", "{34AE337C-F2DD-4D4F-94DE-D0F6713C6763}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "QuartzJob.Web", "QuartzJob.Web\", "{1608EE98-3A95-4986-8B8C-77B261D834FF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{645af2bd-fa67-4b32-8602-52d686b541cc}|QuartzJob.QuartzHelper.dll;{8573EC60-DACE-4B68-B05D-94F212B06DAF}|QuartzJob.Common.dll;{086B31AF-9EF4-41B5-B216-FAE991492397}|QuartzJob.DataAccess.dll;{6230BF74-68F6-4211-9F27-F026A9CDF45A}|QuartzJob.Business.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62008"
+		Debug.AspNetCompiler.PhysicalPath = "QuartzJob.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62008\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62008"
+		Release.AspNetCompiler.PhysicalPath = "QuartzJob.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62008\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62008"
+		SlnRelativePath = "QuartzJob.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BBFD563-8CD8-46BD-9F9B-34B09B7B00BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BBFD563-8CD8-46BD-9F9B-34B09B7B00BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BBFD563-8CD8-46BD-9F9B-34B09B7B00BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BBFD563-8CD8-46BD-9F9B-34B09B7B00BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8573EC60-DACE-4B68-B05D-94F212B06DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8573EC60-DACE-4B68-B05D-94F212B06DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8573EC60-DACE-4B68-B05D-94F212B06DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8573EC60-DACE-4B68-B05D-94F212B06DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6230BF74-68F6-4211-9F27-F026A9CDF45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6230BF74-68F6-4211-9F27-F026A9CDF45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6230BF74-68F6-4211-9F27-F026A9CDF45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6230BF74-68F6-4211-9F27-F026A9CDF45A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086B31AF-9EF4-41B5-B216-FAE991492397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086B31AF-9EF4-41B5-B216-FAE991492397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086B31AF-9EF4-41B5-B216-FAE991492397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086B31AF-9EF4-41B5-B216-FAE991492397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{645AF2BD-FA67-4B32-8602-52D686B541CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{645AF2BD-FA67-4B32-8602-52D686B541CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{645AF2BD-FA67-4B32-8602-52D686B541CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{645AF2BD-FA67-4B32-8602-52D686B541CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34AE337C-F2DD-4D4F-94DE-D0F6713C6763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34AE337C-F2DD-4D4F-94DE-D0F6713C6763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34AE337C-F2DD-4D4F-94DE-D0F6713C6763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34AE337C-F2DD-4D4F-94DE-D0F6713C6763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1608EE98-3A95-4986-8B8C-77B261D834FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1608EE98-3A95-4986-8B8C-77B261D834FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1608EE98-3A95-4986-8B8C-77B261D834FF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1608EE98-3A95-4986-8B8C-77B261D834FF}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
